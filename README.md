@@ -249,4 +249,3 @@ Built by the QueryVault team. For help or questions, open an issue or contact th
 
 ---
 
-*First edition — concise, practical, and ready for experimentation. Want a second edition with a quickstart demo script and a prettier README badge header?*
