@@ -10,7 +10,7 @@ from pinecone import Pinecone, ServerlessSpec  # Correct import from new SDK
 
 # Suppress TensorFlow oneDNN warning
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCIer88Lpddnsyml76MRKlrjOZXl6ZssjQ"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCIe**********6MRKlrjOZXl6ZssjQ"
 # --- Google Gemini Setup ---
 if not os.environ.get("GOOGLE_API_KEY"):
     os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter Google Gemini API Key: ")
@@ -32,7 +32,7 @@ def get_propositions(text_chunk):
     return result.sentences
 
 # --- Pinecone Setup (NEW SDK) ---
-pinecone_api_key = "pcsk_7WZPgu_N668zCwfYQGiEUKggJppRKuwMMo8FYBKu7xcSFqcWFd5L8vgTc69ap5hYSUynkS"
+pinecone_api_key = "pcsk_7WZPgu_N668zCwfYQGiEUKggJ****************d5L8vgTc69ap5hYSUynkS"
 index_name = "qv"
 
 # Initialize Pinecone client
